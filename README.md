@@ -1,7 +1,7 @@
 # Defa-Coin
 Simple Cryptocurrency Blockchain Demo using  Node.js
 
-!(https://travis-ci.org/juthawong/Defa-Coin.svg?branch=master)
+![Nodejs Install Test](https://travis-ci.org/juthawong/Defa-Coin.svg?branch=master)
 
 This Application is a Demo of Basic Cryptocurrency using Block Chain.
 
