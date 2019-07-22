@@ -4,8 +4,7 @@
   "description": "Simple Cryptocurrency Blockchain Demo",
   "main": "dev/node.js",
   "scripts": {
-    "start": "node dev/node.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dev/node.js"
   },
   "author": "Juthawong Naisanguansee",
   "license": "MIT",
