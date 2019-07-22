@@ -10,13 +10,13 @@ This Application is a Demo of Basic Cryptocurrency using Block Chain.
 
 Clone or Download ZIP File
 
-```
+```console
 npm install
 ```
 
 To Run This Apllication with Default Parameter which is Run on Localhost Port 1991
 
-```
+```powershell
 npm start
 ```
 
@@ -35,7 +35,7 @@ This Demo is Only Server based and doesn't provide each Graphical User Interface
 ## Register Node
 
 You must register the node via Node URL/registernode ( http://localhost:1991/registernode) with POST Method using JSON 
-```
+```javascript
 {
 newNodeUrl : 'https://your-node-url:1991'
 }
@@ -47,7 +47,7 @@ You must register the node via Node URL/transaction ( http://localhost:1991/tran
 
 This Create Transaction inside Genesis Block and Broadcast To Other Node in Blockchain.
 
-```
+```json
 {
                     amount: DefaCoinAmount,
                     sender: yourAddress,
