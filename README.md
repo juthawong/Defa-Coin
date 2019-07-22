@@ -3,26 +3,28 @@ Simple Cryptocurrency Blockchain Demo using  Node.js
 
 This Application is a Demo of Basic Cryptocurrency using Block Chain.
 
+![Defa Coin Finder](https://i.imgur.com/19YBd0O.png)
 
+[Image Hosting By Imgur.com](https://imgur.com)
 
 ## How To Use 
 ### Installation
 
 Clone or Download ZIP File
 
-```console
+```shell
 npm install
 ```
 
 To Run This Apllication with Default Parameter which is Run on Localhost Port 1991
 
-```powershell
+```bash
 npm start
 ```
 
 Or To Run This Application Multiple Time in The Same Computer - For Testing , Debugging or Development Purpose
 
-```
+```posh
 node dev/node.js (port-number) (currentnode-url such as http://localhost:1991)
 ```
 
@@ -35,9 +37,9 @@ This Demo is Only Server based and doesn't provide each Graphical User Interface
 ## Register Node
 
 You must register the node via Node URL/registernode ( http://localhost:1991/registernode) with POST Method using JSON 
-```javascript
+```json
 {
-newNodeUrl : 'https://your-node-url:1991'
+'newNodeUrl' : 'https://your-node-url:1991'
 }
 ```
 
@@ -49,9 +51,9 @@ This Create Transaction inside Genesis Block and Broadcast To Other Node in Bloc
 
 ```json
 {
-                    amount: DefaCoinAmount,
-                    sender: yourAddress,
-                    recipient: receipientAddress
+                    'amount': 'DefaCoinAmount',
+                    'sender': 'yourAddress',
+                    'recipient': 'receipientAddress'
 }
 ```
 
