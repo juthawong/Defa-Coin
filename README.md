@@ -1,13 +1,11 @@
 # Defa-Coin
-![Nodejs Install Test](https://travis-ci.org/juthawong/Defa-Coin.svg?branch=master)
+[![Build Status](https://travis-ci.org/juthawong/Defa-Coin.svg?branch=master)](https://travis-ci.org/juthawong/Defa-Coin)
 
 Simple Cryptocurrency Blockchain Demo using  Node.js
 
 This Application is a Demo of Basic Cryptocurrency using Block Chain.
 
-![Defa Coin Finder](https://i.imgur.com/19YBd0O.png)
-
-[Image Hosting By Imgur.com](https://imgur.com)
+[![Defa Coin Finder](https://i.imgur.com/19YBd0O.png)](https://imgur.com/19YBd0O)
 
 ## How To Use 
 ### Installation
