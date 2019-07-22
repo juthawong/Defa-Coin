@@ -12,13 +12,13 @@ This Application is a Demo of Basic Cryptocurrency using Block Chain.
 
 Clone or Download ZIP File
 
-```console
+```posh
 npm install
 ```
 
 To Run This Apllication with Default Parameter which is Run on Localhost Port 1991
 
-```console
+```posh
 npm start
 ```
 
