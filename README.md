@@ -48,7 +48,6 @@ You must register the node via Node URL/transaction ( http://localhost:1991/tran
 This Create Transaction inside Genesis Block and Broadcast To Other Node in Blockchain.
 
 ```
-
 {
                     amount: DefaCoinAmount,
                     sender: yourAddress,
