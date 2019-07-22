@@ -37,7 +37,7 @@ This Demo is Only Server based and doesn't provide each Graphical User Interface
 ## Register Node
 
 You must register the node via Node URL/registernode ( http://localhost:1991/registernode) with POST Method using JSON 
-```json
+```javascript
 {
 'newNodeUrl' : 'https://your-node-url:1991'
 }
@@ -49,7 +49,7 @@ You must register the node via Node URL/transaction ( http://localhost:1991/tran
 
 This Create Transaction inside Genesis Block and Broadcast To Other Node in Blockchain.
 
-```json
+```javascript
 {
                     'amount': 'DefaCoinAmount',
                     'sender': 'yourAddress',
@@ -64,5 +64,5 @@ Send POST Method To Node URL/mine ( http://localhost:1991/mine ). Mining Server 
 
 ## Consensus
 
-Send Post Method To Node URL/consensus
+Send Post Method To Node URL/consensus( http://localhost:1991/consensus ).
 
