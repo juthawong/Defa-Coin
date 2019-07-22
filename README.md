@@ -12,19 +12,19 @@ This Application is a Demo of Basic Cryptocurrency using Block Chain.
 
 Clone or Download ZIP File
 
-```posh
+```console
 npm install
 ```
 
 To Run This Apllication with Default Parameter which is Run on Localhost Port 1991
 
-```posh
+```console
 npm start
 ```
 
 Or To Run This Application Multiple Time in The Same Computer - For Testing , Debugging or Development Purpose
 
-```console
+```posh
 node dev/node.js (port-number) (currentnode-url such as http://localhost:1991)
 ```
 
